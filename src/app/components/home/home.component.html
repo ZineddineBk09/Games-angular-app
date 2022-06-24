@@ -1,0 +1,34 @@
+<div>
+  <mat-form-field>
+    <mat-label>Sort</mat-label>
+    <mat-select panelClass="sort-select" [(ngModel)]="sort">
+      <mat-option value="name">Name</mat-option>
+      <mat-option value="-released">Releases</mat-option>
+      <mat-option value="-added">Added</mat-option>
+      <mat-option value="-created">Created</mat-option>
+      <mat-option value="-updated">Updated</mat-option>
+      <mat-option value="-rating">Rating</mat-option>
+      <mat-option value="metacritic">Metacritic</mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
+
+  <div class="game">
+    <div class="game-thumb-container">
+      <img
+        src="https://www.gamecity-hamburg.de/site/assets/files/3786/200802_goodgame_empire_10_jahre_1.jpeg"
+        alt="thumbnail"
+        class="game-thumbnail"
+      />
+    </div>
+    <div class="game-description">
+      <p class="game-name">Name</p>
+      <div class="game-platform">
+        <img
+          src="https://encrypted-tbn2.gstatic.com/faviconV2?url=https://gamecity-hamburg.de&client=VFE&size=32&type=FAVICON&fallback_opts=TYPE,SIZE,URL&nfrp=2"
+          alt=""
+          class="dd"
+        />
+      </div>
+    </div>
+</div>
